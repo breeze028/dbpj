@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\MyProject\\SIMS\\SIMS.NavigationModule\\SIMS.NavigationModule.csproj": {}
+  },
+  "projects": {
+    "D:\\MyProject\\SIMS\\SIMS.NavigationModule\\SIMS.NavigationModule.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProject\\SIMS\\SIMS.NavigationModule\\SIMS.NavigationModule.csproj",
+        "projectName": "SIMS.NavigationModule",
+        "projectPath": "D:\\MyProject\\SIMS\\SIMS.NavigationModule\\SIMS.NavigationModule.csproj",
+        "packagesPath": "C:\\Users\\Alan.hsiang\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProject\\SIMS\\SIMS.NavigationModule\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\MyProject\\NuGet.Config",
+          "C:\\Users\\Alan.hsiang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/blazorise/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "MahApps.Metro": {
+              "target": "Package",
+              "version": "[2.4.9, )"
+            },
+            "MahApps.Metro.IconPacks": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "Prism.Core": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            },
+            "Prism.Wpf": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

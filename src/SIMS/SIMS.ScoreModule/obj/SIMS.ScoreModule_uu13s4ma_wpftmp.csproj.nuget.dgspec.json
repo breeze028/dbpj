@@ -1,0 +1,217 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\MyProject\\SIMS\\SIMS.ScoreModule\\SIMS.ScoreModule.csproj": {}
+  },
+  "projects": {
+    "D:\\MyProject\\SIMS\\SIMS.Entity\\SIMS.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProject\\SIMS\\SIMS.Entity\\SIMS.Entity.csproj",
+        "projectName": "SIMS.Entity",
+        "projectPath": "D:\\MyProject\\SIMS\\SIMS.Entity\\SIMS.Entity.csproj",
+        "packagesPath": "C:\\Users\\Alan.hsiang\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProject\\SIMS\\SIMS.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\MyProject\\NuGet.Config",
+          "C:\\Users\\Alan.hsiang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/blazorise/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyProject\\SIMS\\SIMS.ScoreModule\\SIMS.ScoreModule.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProject\\SIMS\\SIMS.ScoreModule\\SIMS.ScoreModule.csproj",
+        "projectName": "SIMS.ScoreModule",
+        "projectPath": "D:\\MyProject\\SIMS\\SIMS.ScoreModule\\SIMS.ScoreModule.csproj",
+        "packagesPath": "C:\\Users\\Alan.hsiang\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProject\\SIMS\\SIMS.ScoreModule\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\MyProject\\NuGet.Config",
+          "C:\\Users\\Alan.hsiang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/blazorise/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "D:\\MyProject\\SIMS\\SIMS.Entity\\SIMS.Entity.csproj": {
+                "projectPath": "D:\\MyProject\\SIMS\\SIMS.Entity\\SIMS.Entity.csproj"
+              },
+              "D:\\MyProject\\SIMS\\SIMS.Utils\\SIMS.Utils.csproj": {
+                "projectPath": "D:\\MyProject\\SIMS\\SIMS.Utils\\SIMS.Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "MahApps.Metro": {
+              "target": "Package",
+              "version": "[2.4.9, )"
+            },
+            "Prism.Core": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            },
+            "Prism.Wpf": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyProject\\SIMS\\SIMS.Utils\\SIMS.Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProject\\SIMS\\SIMS.Utils\\SIMS.Utils.csproj",
+        "projectName": "SIMS.Utils",
+        "projectPath": "D:\\MyProject\\SIMS\\SIMS.Utils\\SIMS.Utils.csproj",
+        "packagesPath": "C:\\Users\\Alan.hsiang\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProject\\SIMS\\SIMS.Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\MyProject\\NuGet.Config",
+          "C:\\Users\\Alan.hsiang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/blazorise/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "D:\\MyProject\\SIMS\\SIMS.Entity\\SIMS.Entity.csproj": {
+                "projectPath": "D:\\MyProject\\SIMS\\SIMS.Entity\\SIMS.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Prism.Core": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

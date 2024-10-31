@@ -1,0 +1,11 @@
+D:\MyProject\SIMS\SIMS.Entity\bin\Debug\net6.0-windows\SIMS.Entity.deps.json
+D:\MyProject\SIMS\SIMS.Entity\bin\Debug\net6.0-windows\SIMS.Entity.dll
+D:\MyProject\SIMS\SIMS.Entity\bin\Debug\net6.0-windows\ref\SIMS.Entity.dll
+D:\MyProject\SIMS\SIMS.Entity\bin\Debug\net6.0-windows\SIMS.Entity.pdb
+D:\MyProject\SIMS\SIMS.Entity\obj\Debug\net6.0-windows\SIMS.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProject\SIMS\SIMS.Entity\obj\Debug\net6.0-windows\SIMS.Entity.AssemblyInfoInputs.cache
+D:\MyProject\SIMS\SIMS.Entity\obj\Debug\net6.0-windows\SIMS.Entity.AssemblyInfo.cs
+D:\MyProject\SIMS\SIMS.Entity\obj\Debug\net6.0-windows\SIMS.Entity.csproj.CoreCompileInputs.cache
+D:\MyProject\SIMS\SIMS.Entity\obj\Debug\net6.0-windows\SIMS.Entity.dll
+D:\MyProject\SIMS\SIMS.Entity\obj\Debug\net6.0-windows\ref\SIMS.Entity.dll
+D:\MyProject\SIMS\SIMS.Entity\obj\Debug\net6.0-windows\SIMS.Entity.pdb

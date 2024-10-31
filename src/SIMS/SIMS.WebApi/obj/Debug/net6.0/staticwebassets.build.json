@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "cGcThPFMYJ/pvBDphRiMlr2APUib+D4eKu3XPLH+BrA=",
+  "Source": "SIMS.WebApi",
+  "BasePath": "_content/SIMS.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

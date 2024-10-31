@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Views\AddEditMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\AddEditRole.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\AddEditUser.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Menu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Personal.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Role.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\User.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Views\AddEditMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AddEditRole.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AddEditUser.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Menu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Personal.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Role.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\User.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

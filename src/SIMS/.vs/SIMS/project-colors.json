@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "440a0aa1-a7db-43e8-ab72-b872f5b9afd3": {
+      "ProjectGuid": "440a0aa1-a7db-43e8-ab72-b872f5b9afd3",
+      "DisplayName": "SIMS",
+      "ColorIndex": 0
+    },
+    "d70a595a-feac-4665-8a6e-1cb69f431755": {
+      "ProjectGuid": "d70a595a-feac-4665-8a6e-1cb69f431755",
+      "DisplayName": "SIMS.StudentModule",
+      "ColorIndex": 1
+    },
+    "55107998-8722-4837-8eee-593c41a50ebb": {
+      "ProjectGuid": "55107998-8722-4837-8eee-593c41a50ebb",
+      "DisplayName": "SIMS.ScoreModule",
+      "ColorIndex": 2
+    },
+    "fb375f9e-87a2-4425-9143-c14cd989d975": {
+      "ProjectGuid": "fb375f9e-87a2-4425-9143-c14cd989d975",
+      "DisplayName": "SIMS.SysManagementModule",
+      "ColorIndex": 3
+    },
+    "849eac48-1c8e-42d2-9e7d-edfd7edea7e0": {
+      "ProjectGuid": "849eac48-1c8e-42d2-9e7d-edfd7edea7e0",
+      "DisplayName": "SIMS.Utils",
+      "ColorIndex": 4
+    },
+    "e9c12f19-c50f-489f-92ce-cd608e056f0e": {
+      "ProjectGuid": "e9c12f19-c50f-489f-92ce-cd608e056f0e",
+      "DisplayName": "SIMS.WebApi",
+      "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    },
+    "6455871d-a3b4-4c96-bec4-ad6d44c18724": {
+      "ProjectGuid": "6455871d-a3b4-4c96-bec4-ad6d44c18724",
+      "DisplayName": "SIMS.NavigationModule",
+      "ColorIndex": 6
+    },
+    "651ad4fd-302b-4347-ac4e-b2e1a828ad12": {
+      "ProjectGuid": "651ad4fd-302b-4347-ac4e-b2e1a828ad12",
+      "DisplayName": "SIMS.Entity",
+      "ColorIndex": 7
+    },
+    "e31213f8-1b2e-4bf7-bdab-8ce47e0972c6": {
+      "ProjectGuid": "e31213f8-1b2e-4bf7-bdab-8ce47e0972c6",
+      "DisplayName": "SIMS.ClassesModule",
+      "ColorIndex": 8
+    },
+    "b8038f34-50ee-4a8a-b245-245b9dfb0b3e": {
+      "ProjectGuid": "b8038f34-50ee-4a8a-b245-245b9dfb0b3e",
+      "DisplayName": "SIMS.CourseModule",
+      "ColorIndex": 9
+    }
+  },
+  "NextColorIndex": 10
+}

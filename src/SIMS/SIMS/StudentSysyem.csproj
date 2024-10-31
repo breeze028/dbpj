@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\icon_classes.png" />
+    <None Remove="images\icon_course.png" />
+    <None Remove="images\icon_menu.png" />
+    <None Remove="images\icon_personal.png" />
+    <None Remove="images\icon_query_add.png" />
+    <None Remove="images\icon_role.png" />
+    <None Remove="images\icon_score.png" />
+    <None Remove="images\icon_student.png" />
+    <None Remove="images\icon_user.png" />
+    <None Remove="images\welcome.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\icon_menu.png" />
+    <Resource Include="images\icon_query_add.png" />
+    <Resource Include="images\icon_score.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\icon_classes.png" />
+    <Resource Include="images\icon_course.png" />
+    <Resource Include="images\icon_personal.png" />
+    <Resource Include="images\icon_role.png" />
+    <Resource Include="images\icon_student.png" />
+    <Resource Include="images\icon_user.png" />
+    <Resource Include="images\welcome.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MahApps.Metro" Version="2.4.9" />
+    <PackageReference Include="MahApps.Metro.IconPacks" Version="4.11.0" />
+    <PackageReference Include="MahApps.Metro.IconPacks.Material" Version="4.11.0" />
+    <PackageReference Include="Prism.Core" Version="8.1.97" />
+    <PackageReference Include="Prism.Unity" Version="8.1.97" />
+    <PackageReference Include="Prism.Wpf" Version="8.1.97" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SIMS.Utils\SIMS.Utils.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="App.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

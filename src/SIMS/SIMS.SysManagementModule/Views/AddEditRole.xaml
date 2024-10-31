@@ -1,0 +1,75 @@
+﻿<UserControl x:Class="SIMS.SysManagementModule.Views.AddEditRole"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SIMS.SysManagementModule.Views"
+             xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+             xmlns:mahApps ="http://metro.mahapps.com/winfx/xaml/controls"
+             xmlns:prism="http://prismlibrary.com/" 
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <prism:Dialog.WindowStyle>
+        <Style TargetType="Window">
+            <Setter Property="Width" Value="600"></Setter>
+            <Setter Property="Height" Value="400"></Setter>
+        </Style>
+    </prism:Dialog.WindowStyle>
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Light.Blue.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding LoadedCommand}"></i:InvokeCommandAction>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <TabControl mahApps:HeaderedControlHelper.HeaderFontSize="16">
+        <TabItem Header="角色信息" mahApps:VisibilityHelper.IsVisible="{Binding IsAddEdit}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+
+
+                <TextBlock Text="角色名称" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" Margin="3"></TextBlock>
+                <TextBox Grid.Row="0" Grid.Column="2" MinWidth="120" Height="35"   VerticalAlignment="Center" Margin="3" Text="{Binding Role.Name}"></TextBox>
+                <TextBlock Text="描述" Grid.Row="1" Grid.Column="1"   VerticalAlignment="Center" Margin="3"></TextBlock>
+                <TextBox Grid.Row="1" Grid.Column="2" MinWidth="120" Height="35"   VerticalAlignment="Center" Margin="3" Text="{Binding Role.Description}"></TextBox>
+                <StackPanel Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="3">
+                    <Button Content="取消" Margin="5" MinWidth="120" Height="35" Style="{DynamicResource MahApps.Styles.Button.Square.Accent}" Command="{Binding CancelCommand}"></Button>
+                    <Button Content="保存" Margin="5" MinWidth="120" Height="35" Style="{DynamicResource MahApps.Styles.Button.Square.Accent}" Command="{Binding SaveCommand}"></Button>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <TabItem Header="分配菜单" mahApps:VisibilityHelper.IsVisible="{Binding IsEditMenu}" IsSelected="{Binding IsEditMenu}">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Button Content="授权" Grid.Row="0" HorizontalAlignment="Right" Margin="5" MinWidth="120" Height="35" Style="{DynamicResource MahApps.Styles.Button.Square.Accent}" Command="{Binding DoCommand}"></Button>
+                <DataGrid Grid.Row="1" x:Name="dgMenus" ItemsSource="{Binding Menus}" AutoGenerateColumns="False">
+                    <DataGrid.Columns>
+                        <DataGridCheckBoxColumn Header="选择" Width="Auto" Binding="{Binding IsChecked}"></DataGridCheckBoxColumn>
+                        <DataGridTextColumn Header="菜单名称" Binding="{Binding Name}" Width="*"></DataGridTextColumn>
+                        <DataGridTextColumn Header="描述" Binding="{Binding Description}" Width="*"></DataGridTextColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </TabItem>
+    </TabControl>
+</UserControl>
+
